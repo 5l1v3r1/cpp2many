@@ -1,10 +1,10 @@
 
 sample = """
+// Sample program
+
 #include <iostream>
-#include <vector>
 using namespace std;
 
-// euclid
 int mcd (int a, int b) {
     while (a != b) {
         if (a > b) a = a - b;
@@ -13,7 +13,6 @@ int mcd (int a, int b) {
     return a;
 }
 
-// main
 int main () {
     cout << "Give me two numbers: ";
     int x, y;
