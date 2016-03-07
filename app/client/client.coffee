@@ -39,7 +39,8 @@ window.start_index = ->
         editor.setOptions
             minLines: 21
             maxLines: 21
-            fontSize: '12pt'
+            fontFamily: 'Monospace,Menlo,Monaco,Consolas,"Courier New"'
+            fontSize: '11pt'
             highlightActiveLine: false
         editor.setValue sample, -1
         editor.setValue sample, 1
