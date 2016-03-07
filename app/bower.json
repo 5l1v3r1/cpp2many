@@ -19,6 +19,7 @@
     "jquery": "",
     "bootstrap": "",
     "font-awesome": "^4.5.0",
-    "highlightjs": "^9.1.0"
+    "highlightjs": "^9.1.0",
+    "clipboard": "^1.5.9"
   }
 }

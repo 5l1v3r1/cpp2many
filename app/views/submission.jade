@@ -4,11 +4,15 @@ block content
 
     .jumbotron(style='padding: 1em;')= title
 
+
     .panel.panel-default
         .panel-heading Output
+            .pull-right(style='position: relative; margin-top: -7px; margin-bottom: -20px;')
+                button#copy-clipboard-btn.btn.btn-default(data-clipboard-target='#output', title='Copy to clipboard')
+                    i.fa.fa-clipboard
         .panel-body
             pre(style='background: white; border: 0px; padding: 0px;')
-                code= out
+                code#output= out
 
     if err != ""
         .panel.panel-default

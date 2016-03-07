@@ -44,7 +44,6 @@ window.start_index = ->
         editor.setValue sample, -1
         editor.setValue sample, 1
 
-
         $editor = $('#editor')
         $editor.closest('form').submit ->
             console.log "subm"
@@ -56,8 +55,13 @@ window.start_index = ->
 window.start_submission = ->
 
     $(document).ready ->
+
         hljs.initHighlightingOnLoad()
 
+        clipboard = new Clipboard '#cc'
+
+        clipboard.on 'success', (e) ->
+            e.clearSelection()
 
 window.set_sample = ->
 
