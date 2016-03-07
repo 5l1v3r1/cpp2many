@@ -58,10 +58,11 @@ window.start_submission = ->
 
         hljs.initHighlightingOnLoad()
 
-        clipboard = new Clipboard '#cc'
+        clipboard = new Clipboard '#copy-clipboard-btn'
 
         clipboard.on 'success', (e) ->
             e.clearSelection()
+
 
 window.set_sample = ->
 
