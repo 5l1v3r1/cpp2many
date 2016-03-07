@@ -1,12 +1,12 @@
 {
-  "name": "code-metrics-app",
-  "description": "code-metrics-app",
+  "name": "cpp2many-app",
+  "description": "cpp2many-app",
   "main": "",
   "authors": [
     "Jordi Petit <jpetit@cs.upc.edu>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/jutge-org/code-metrics",
+  "homepage": "https://github.com/jutge-org/cpp2many",
   "moduleType": [],
   "private": true,
   "ignore": [
