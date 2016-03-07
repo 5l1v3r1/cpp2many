@@ -1,0 +1,1 @@
+The PoliCmm compiler was developed by Ricardo Martin Brualla at Universitat Politècnica de Catalunya, as part of his final project with Jordi Petit as advisor. Its documentation can be found in the document [http://upcommons.upc.edu/pfc/handle/2099.1/13929[Automatic translation of programs for evaluation of execution times].

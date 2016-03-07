@@ -1,0 +1,34 @@
+extends layout
+
+block content
+
+    .jumbotron(style='padding: 1em;')= title
+
+    .panel.panel-default
+        .panel-heading Output
+        .panel-body
+            pre(style='background: white; border: 0px; padding: 0px;')
+                code= out
+
+    if err != ""
+        .panel.panel-default
+            .panel-heading Errors
+            .panel-body
+                pre(style='background: white; border: 0px; padding: 0px;')
+                    code= err
+
+    .panel.panel-default
+        .panel-heading Input
+        .panel-body
+            pre(style='background: white; border: 0px; padding: 0px;')
+                code= inp
+
+    if 0
+        .panel.panel-default
+            .panel-heading Meta
+            .panel-body
+                pre(style='background: white; border: 0px; padding: 0px;')
+                    code= meta
+
+    script.
+        start_submission()
