@@ -2,3 +2,7 @@ app/public/javascripts/client.js
 app/public/stylesheets/style.css
 app/node_modules
 app/bower_components
+*.pyc
+*~
+PoliCmm/src/parser.out
+PoliCmm/src/parsetab.py
